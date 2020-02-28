@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+margin-left:25px;
+margin-right:25px;
+  
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-style:italic;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active1 {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.main1{
+height:650px;
+
+
+}
+
+#main2{
+margin:25px;
+border-radius:25px;
+height:500px;
+float:right;
+
+
+}
+
+
+.navbar {
+  width: 97%;
+  background-color: #555;
+  overflow: auto;
+margin-bottom:10px;
+margin-left:25px;
+margin-right:25px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active1 {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+}
+body
+{
+background-color:#ECE9E6;
+}
+.demo1:hover
+{
+filter: grayscale(1);
+	transition-property: filter;
+	transition-duration: 1s;
+}
+#travel
+{
+font-size:32px;
+margin-left:70px;
+font-family:"sans-serif"
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides11 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* next11 & prev11ious buttons */
+.prev11,
+.next11 {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next11 button" to the right */
+.next11 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev11:hover,
+.next11:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext11111111 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container11 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#dev1:hover
+{
+ filter:grayscale(1);
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a class="active1" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i>Plan </a> 
+  <a href="planurtrip1.html"><i class="fa fa-fw fa-contact"></i>Destinations</a> 
+  <a href="#"><i class="fa fa-fw fa-login"></i>ContactUs</a>
+</div>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img class="main1" src="C:\Users\Ananya\Desktop\travel\image\travel_1.jpg" style="width:100%">
+  <div class="text">"Let's start this journey."</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img class="main1" src="C:\Users\Ananya\Desktop\travel\image\travel_4.jpg" style="width:100%" >
+  <div class="text">"On the beach, you can live in bliss."</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img class="main1" src="C:\Users\Ananya\Desktop\travel\image\travel_9.jpg" style="width:100%">
+  <div class="text">"Feel the beauty"</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img class="main1" src="C:\Users\Ananya\Desktop\travel\image\travel_5.jpg" style="width:100%">
+  <div class="text">Open the wings of freedom</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img class="main1" src="C:\Users\Ananya\Desktop\travel\image\travel_3.jpg" style="width:100%">
+  <div class="text">Paradise Found!</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img class="main1" src="C:\Users\Ananya\Desktop\travel\image\travel_6.jpg" style="width:100%">
+  <div class="text">Happiness comes in waves!</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+<span class="dot"></span> 
+
+
+</div>
+
+<img  onmouseover="f1()" onmouseout="f2()" id="main2" src="travel_2.jfif">
+<p><i><pre style="font-size:35px; margin-top:50px; margin-left:50px">
+
+"It’s never too late to have a life you love. 
+Don’t ever feel like you’ve missed the boat, 
+don’t have what it takes or can’t achieve your
+dreams. Instead of removing your dreams, remove
+the doubts and fears keeping you from them.
+It’s never, ever too late"</pre><i>
+</p>
+<p><i><pre style="font-size:35px; margin-top:15px; margin-left:50px" >
+“The more I traveled the more I realized that
+sfear makes strangers of people who should be 
+friends.” 
+</pre><i></p>
+
+
+<img class="demo1"  title="Singapore" src="image4.jpg" style="width:50%; margin-top:80px; border-radius:15px;">
+<img class="demo1"  src="image1.jpg" title="Beaches" style="width:49.5%; margin-top:-500px; float:right; border-radius:15px;">
+
+<img class="demo1" title="Mountains" src="image10.jpg" style="width:50%; border-radius:15px; margin-top:10px;"> 
+<img class="demo1"  title="Surfing" src="image11.jpg" style="width:50%; float:right; margin-top:10px; border-radius:15px;" >
+
+<p><pre id=travel>
+1. “Surely, of all the wonders of the world, the horizon is the greatest.”
+ – Freya Stark
+
+2. “Travel isn’t always pretty. It isn’t always comfortable. Sometimes it 
+hurts,it even breaks your heart. But that’s okay. The journey changes you; 
+it should change you. It leaves marks on your memory, on your consciousness, 
+on your heart,and on your body. You take something with you. Hopefully,
+you leave something good behind.” – Anthony Bourdain
+
+3. “A good traveler has no fixed plans, and is not intent on arriving.” 
+– Lao Tzu 
+
+4. “There are no foreign lands. It is the traveler only who is foreign”
+ – Robert Louis Stevenson
+</pre></p>
+
+<div class="container">
+  <div class="mySlides11">
+    <div class="numbertext11111111">1 / 6</div>
+    <img class="dev" src="pixel4.jpg" style="width:100%; height:550px;">
+  </div>
+
+  <div class="mySlides11">
+    <div class="numbertext11111111">2 / 6</div>
+    <img src="pixel6.jpg" style="width:100%; height:550px;">
+  </div>
+
+  <div class="mySlides11">
+    <div class="numbertext11111111">3 / 6</div>
+    <img src="pixel7.jpg" style="width:100%; height:550px;">
+  </div>
+    
+  <div class="mySlides11">
+    <div class="numbertext11111111">4 / 6</div>
+    <img src="pixel13.jpg" style="width:100%; height:550px;">
+  </div>
+
+  <div class="mySlides11">
+    <div class="numbertext11111111">5 / 6</div>
+    <img src="pixel11.jpg" style="width:100%; height:550px;">
+  </div>
+    
+  <div class="mySlides11">
+    <div class="numbertext11111111">6 / 6</div>
+    <img src="pixel3.jpg" style="width:100%; height:550px;">
+  </div>
+    
+  <a class="prev11" onclick="plusSlides11(-1)">?</a>
+  <a class="next11" onclick="plusSlides11(1)">?</a>
+
+  <div class="caption-container11">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="pixel4.jpg" " style="width:100%" onclick="currentSlide11(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pixel6.jpg" " style="width:100%" onclick="currentSlide11(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pixel7.jpg" " style="width:100%" onclick="currentSlide11(3)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pixel13.jpg" " style="width:100%" onclick="currentSlide11(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pixel11.jpg" " style="width:100%" onclick="currentSlide11(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="pixel3.jpg"  style="width:100%" onclick="currentSlide11(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active1";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+function f1()
+{
+document.getElementById("main2").src="travel_10.webp";
+}
+function f2()
+{
+document.getElementById("main2").src="travel_2.jfif";
+}
+
+var slideIndexa = 1;
+showSlidesa(slideIndexa);
+
+function plusSlides11(n) {
+  showSlidesa(slideIndexa += n);
+}
+
+function currentSlide11(n) {
+  showSlidesa(slideIndexa = n);
+}
+
+function showSlidesa(n) {
+  var i;
+  var slidesa = document.getElementsByClassName("mySlides11");
+  var dotsa = document.getElementsByClassName("demo");
+  var captionTexta = document.getElementById("caption");
+  if (n > slidesa.length) {slideIndexa = 1}
+  if (n < 1) {slideIndexa = slidesa.length}
+  for (i = 0; i < slidesa.length; i++) {
+      slidesa[i].style.display = "none";
+  }
+  for (i = 0; i < dotsa.length; i++) {
+      dotsa[i].className = dotsa[i].className.replace(" active", "");
+  }
+  slidesa[slideIndexa-1].style.display = "block";
+  dotsa[slideIndexa-1].className += " active";
+  captionTexta.innerHTML = dotsa[slideIndexa-1].alt;
+}
+
+</script>
+
+</body>
+</html> 
